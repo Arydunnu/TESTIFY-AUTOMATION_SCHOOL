@@ -8,3 +8,15 @@ This is the beginning
 ## Installation 
 
     How to install
+
+# Table Of Content
+
+ Installation 
+
+ Update 
+
+ ## Installation
+
+   How to Install
+
+## Update 
