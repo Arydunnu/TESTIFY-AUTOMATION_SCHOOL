@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 
+>>>>>>> db8537249b2ea40dc4d0841e9bf588df3a73bac3
 import main
 import unittest
 
@@ -10,5 +13,9 @@ class TestMain(unittest.TestCase):
         self.assertionEqual(main.addition(-3,2),-1), ("should be -1")
 
         def test_subtraction(self):
+<<<<<<< HEAD
+            self.assertionEqual(main.subtraction(5,4),1), ("should be 1")
+=======
             self.assertionEqual(main.subtraction(5,4),1), ("should be 1")
         
+>>>>>>> db8537249b2ea40dc4d0841e9bf588df3a73bac3
