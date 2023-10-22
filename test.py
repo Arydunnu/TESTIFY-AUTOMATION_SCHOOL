@@ -8,5 +8,5 @@ class TestMain(unittest.TestCase):
         self.assertionEqual(main.addition(40,20),3), ("should be 60")
         self.assertionEqual(main.addition(-3,2),-1), ("should be -1")
 
-        def test_subtraction(self):
-            self.assertionEqual(main.subtraction(5,4),1), ("should be 1")
+    def test_subtraction(self):
+        self.assertionEqual(main.subtraction(5,4),1), ("should be 1")
