@@ -4,3 +4,4 @@
 //JavaScript is responsible for Web2, precursor to Web3
 //JavaScript has many implementations, but a single “owner”: ECMA
 //In reality, there is no longer one “true” JavaScript.
+//The original name for JavaScript was Mocha.
