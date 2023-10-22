@@ -1,9 +1,7 @@
-const number = 14
+const number = 19
 if(number % 2) {
-
     console.log("the string number is even")
-} 
-else{
+}
+else {
     console.log("number is even")
 }
-
