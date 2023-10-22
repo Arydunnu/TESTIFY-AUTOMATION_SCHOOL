@@ -6,4 +6,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
+<<<<<<< HEAD
       - run: python main.py
+      
+=======
+      - run: python main.py
+>>>>>>> main
