@@ -3,7 +3,7 @@ function calculateAreaOfRectangle(length , width){
    
     const area = length * width
 
-    console.log (area)
+    return (area)
 }
 
-calculateAreaOfRectangle(6 , 7);
+console.log (calculateAreaOfRectangle (5 , 4));
