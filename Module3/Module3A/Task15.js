@@ -51,10 +51,10 @@ for (let i= 0; i <= 3; i= i+1) {
     
     if(myBooks[i].reading === true)
     {
-        console.log("Title: " + myBooks[i].title);
-        console.log("Description: " + myBooks[i].description);
-        console.log("Number of Pages: " + myBooks[i].numberOfPages);
-        console.log("Author: " + myBooks[i].authour);
-        console.log("Reading: " + myBooks[i].reading);
+        console.log("Title: " + myBooks[i].title),
+        console.log("Description: " + myBooks[i].description),
+        console.log("Number of Pages: " + myBooks[i].numberOfPages),
+        console.log("Author: " + myBooks[i].authour),
+        console.log("Reading: " + myBooks[i].reading)
 }
 }
