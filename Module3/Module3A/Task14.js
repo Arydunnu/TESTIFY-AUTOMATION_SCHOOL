@@ -1,5 +1,5 @@
 const bookss={
-    
+
     title: "How to create value" ,
 
     description: "This book is all about investing in yourself " ,
@@ -21,5 +21,5 @@ const bookss={
 }
 
 }
-bookss.toggleReadingStatus()
-console.log (bookss.reading)
+    bookss.toggleReadingStatus()
+    console.log (bookss.reading)
