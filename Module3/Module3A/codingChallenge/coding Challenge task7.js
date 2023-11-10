@@ -1,4 +1,6 @@
 
+// Sort an array of numbers in descending order
+
 // Example array of numbers
 const arrayOfNumbers = [5, 2, 8, 1, 4];
 

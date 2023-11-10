@@ -1,30 +1,30 @@
-function convertLength(value, fromUnit, toUnit) {
-    // Define conversion factors
-    const conversionFactors = {
+
+// Create a length converter function
+
+function convertLength(value, fromMeter, toInch) {
+
+    const conversionTable = {
       meter: 1,
-      foot: 3.28084, // 1 meter = 3.28084 feet
-      inch: 39.3701, // 1 meter = 39.3701 inches
+      inch: 39.3701,
     };
   
-    // Check if the units are valid
-    if (!(fromUnit in conversionFactors) || !(toUnit in conversionFactors)) {
+
+    if (!(fromMeter in conversionTable) || !(toInch in conversionTable)) {
       return "Invalid units";
     }
   
-    // Convert the value to meters
-    const valueInMeters = value / conversionFactors[fromUnit];
+
+    const valueInMeters = value / conversionTable[fromMeter];
   
-    // Convert the value from meters to the target unit
-    const result = valueInMeters * conversionFactors[toUnit];
+
+    const result = valueInMeters * conversionTable[toInch];
   
     return result;
   }
   
-  // Example usage:
-  const lengthInMeters = 2;
-  const convertedLengthInFeet = convertLength(lengthInMeters, "meter", "foot");
+
+  const lengthInMeters = 5;
   const convertedLengthInInches = convertLength(lengthInMeters, "meter", "inch");
   
-  console.log(`${lengthInMeters} meters is equal to ${convertedLengthInFeet} feet`);
   console.log(`${lengthInMeters} meters is equal to ${convertedLengthInInches} inches`);
   

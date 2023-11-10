@@ -1,6 +1,8 @@
 
+// Create a function that filters out negative numbers.
+
 function filterNegativeNumbers(numbers) {
-    // Use the filter method to create a new array with only positive numbers
+
     const positiveNumbers = numbers.filter(function(number) {
         return number >= 0;
     });
