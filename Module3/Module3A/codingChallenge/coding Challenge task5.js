@@ -1,10 +1,14 @@
+
+
+// Create a function that reverses an array
+
 function reverseArray(myArray) {
     for (let i = 0; i < Math.floor(myArray.length / 2); i++) {
 
         // Swap elements at positions i and (arr.length - 1 - i)
 
         const value = myArray[i];
-        myArray[i] = myArray[myArray.length - 1 - 0];
+        myArray[i] = myArray[myArray.length - 1 - i];
         myArray[myArray.length - 1 - i] = value;
     }
 }

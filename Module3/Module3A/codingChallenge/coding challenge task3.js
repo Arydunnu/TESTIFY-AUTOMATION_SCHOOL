@@ -1,6 +1,8 @@
+
+// Print all even numbers from 0 – 100
+
 for (let number = 0; number<= 100; number = number+1) {
     
-    // number divisible by 2
     
     if(number % 2 === 0){
         
