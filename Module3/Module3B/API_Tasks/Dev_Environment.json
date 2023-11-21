@@ -1,0 +1,27 @@
+gi{
+	"id": "b46b93bc-494d-4d48-b59d-fea467f9c048",
+	"name": "Dev Environment",
+	"values": [
+		{
+			"key": "",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "russian_id",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "BaseUrl",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2023-11-21T10:31:42.756Z",
+	"_postman_exported_using": "Postman/10.20.0"
+}
