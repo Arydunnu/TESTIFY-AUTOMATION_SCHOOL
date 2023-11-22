@@ -1,9 +1,10 @@
 {
 	"info": {
-		"_postman_id": "97219260-c694-48a9-be4b-8dcc13e690af",
-		"name": "API Task 2",
+		"_postman_id": "171e1906-73b6-4dac-bc0a-72519cb4e144",
+		"name": "API Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "18622517"
+		"_exporter_id": "11355708",
+		"_collection_link": "https://warped-robot-374038.postman.co/workspace/Test-API~504149bb-45e0-4f4f-b963-c324c6691b6d/collection/11355708-171e1906-73b6-4dac-bc0a-72519cb4e144?action=share&source=collection_link&creator=11355708"
 	},
 	"item": [
 		{
@@ -13,8 +14,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"\r",
-							"pm.collectionVariables.set(\"BaseUrl\", \"https://simple-books-api.glitch.me/\");"
+							""
 						],
 						"type": "text/javascript"
 					}
@@ -24,19 +24,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{BaseUrl}}/books/:bookId",
+					"raw": "https://simple-books-api.glitch.me/",
+					"protocol": "https",
 					"host": [
-						"{{BaseUrl}}"
+						"simple-books-api",
+						"glitch",
+						"me"
 					],
 					"path": [
-						"books",
-						":bookId"
-					],
-					"variable": [
-						{
-							"key": "bookId",
-							"value": ""
-						}
+						""
 					]
 				}
 			},
@@ -56,21 +52,11 @@
 				}
 			],
 			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "d6b1063208495fab5930d94e912152ee3eb65cc0f5b7eb6fd98a09f0c091fe73",
-							"type": "string"
-						}
-					]
-				},
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n   \"clientName\": \"Johny\",\r\n   \"clientEmail\": \"aridunnu@gmail.com\"\r\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -78,11 +64,15 @@
 					}
 				},
 				"url": {
-					"raw": "{{BaseUrl}}api-clients/",
+					"raw": "https://simple-books-api.glitch.me/api-clients/",
+					"protocol": "https",
 					"host": [
-						"{{BaseUrl}}api-clients"
+						"simple-books-api",
+						"glitch",
+						"me"
 					],
 					"path": [
+						"api-clients",
 						""
 					]
 				}
@@ -106,20 +96,19 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{BaseUrl}}books?type=non-fiction",
+					"raw": "https://simple-books-api.glitch.me/books",
+					"protocol": "https",
 					"host": [
-						"{{BaseUrl}}books"
+						"simple-books-api",
+						"glitch",
+						"me"
 					],
-					"query": [
-						{
-							"key": "type",
-							"value": "non-fiction"
-						}
+					"path": [
+						"books"
 					]
 				}
 			},
 			"response": []
-			
 		},
 		{
 			"name": "Get a single book",
@@ -139,11 +128,15 @@
 					}
 				},
 				"url": {
-					"raw": "{{BaseUrl}}books/:bookId",
+					"raw": "https://simple-books-api.glitch.me/books/:bookId",
+					"protocol": "https",
 					"host": [
-						"{{BaseUrl}}books"
+						"simple-books-api",
+						"glitch",
+						"me"
 					],
 					"path": [
+						"books",
 						":bookId"
 					],
 					"query": [
@@ -156,7 +149,7 @@
 					"variable": [
 						{
 							"key": "bookId",
-							"value": "5"
+							"value": ""
 						}
 					]
 				}
@@ -177,16 +170,6 @@
 				}
 			],
 			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "d6b1063208495fab5930d94e912152ee3eb65cc0f5b7eb6fd98a09f0c091fe73",
-							"type": "string"
-						}
-					]
-				},
 				"method": "POST",
 				"header": [
 					{
@@ -197,7 +180,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"bookId\": 1,\r\n  \"customerName\": \"Jane\"\r\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -205,9 +188,15 @@
 					}
 				},
 				"url": {
-					"raw": "{{BaseUrl}}orders",
+					"raw": "https://simple-books-api.glitch.me/orders",
+					"protocol": "https",
 					"host": [
-						"{{BaseUrl}}orders"
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"orders"
 					]
 				}
 			},
@@ -230,16 +219,6 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "d6b1063208495fab5930d94e912152ee3eb65cc0f5b7eb6fd98a09f0c091fe73",
-							"type": "string"
-						}
-					]
-				},
 				"method": "GET",
 				"header": [],
 				"body": {
@@ -252,9 +231,15 @@
 					}
 				},
 				"url": {
-					"raw": "{{BaseUrl}}orders",
+					"raw": "https://simple-books-api.glitch.me/orders",
+					"protocol": "https",
 					"host": [
-						"{{BaseUrl}}orders"
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"orders"
 					]
 				}
 			},
@@ -266,16 +251,6 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "d6b1063208495fab5930d94e912152ee3eb65cc0f5b7eb6fd98a09f0c091fe73",
-							"type": "string"
-						}
-					]
-				},
 				"method": "GET",
 				"header": [],
 				"body": {
@@ -288,17 +263,58 @@
 					}
 				},
 				"url": {
-					"raw": "{{BaseUrl}}orders/:orderId",
+					"raw": "https://simple-books-api.glitch.me/orders/:orderId",
+					"protocol": "https",
 					"host": [
-						"{{BaseUrl}}orders"
+						"simple-books-api",
+						"glitch",
+						"me"
 					],
 					"path": [
+						"orders",
 						":orderId"
 					],
 					"variable": [
 						{
 							"key": "orderId",
-							"value": "PYYNmJQOnvQPWMUoZxeZ9"
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update an order",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/orders/:orderId/",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"orders",
+						":orderId",
+						""
+					],
+					"variable": [
+						{
+							"key": "orderId",
+							"value": ""
 						}
 					]
 				}
@@ -319,16 +335,6 @@
 				}
 			],
 			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "d6b1063208495fab5930d94e912152ee3eb65cc0f5b7eb6fd98a09f0c091fe73",
-							"type": "string"
-						}
-					]
-				},
 				"method": "DELETE",
 				"header": [],
 				"body": {
@@ -341,28 +347,26 @@
 					}
 				},
 				"url": {
-					"raw": "{{BaseUrl}}orders/:orderId",
+					"raw": "https://simple-books-api.glitch.me/orders/:orderId",
+					"protocol": "https",
 					"host": [
-						"{{BaseUrl}}orders"
+						"simple-books-api",
+						"glitch",
+						"me"
 					],
 					"path": [
+						"orders",
 						":orderId"
 					],
 					"variable": [
 						{
 							"key": "orderId",
-							"value": "PYYNmJQOnvQPWMUoZxeZ9"
+							"value": ""
 						}
 					]
 				}
 			},
 			"response": []
-		}
-	],
-	"variable": [
-		{
-			"key": "BaseUrl",
-			"value": ""
 		}
 	]
 }
