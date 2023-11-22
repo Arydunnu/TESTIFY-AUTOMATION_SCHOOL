@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="API Task 6" tests="9" time="7.515">
+  <testsuite name="Get Status" id="a2d7409a-5bd8-424c-ba28-0aca36ff8d39" timestamp="2023-11-22T01:19:05.248Z" tests="0" failures="0" errors="0" time="2.534"/>
+  <testsuite name="Register an API Client" id="066fce6d-7524-494c-8a0d-11859b698401" timestamp="2023-11-22T01:19:05.248Z" tests="0" failures="0" errors="0" time="0.990"/>
+  <testsuite name="Get Books" id="82e0138f-560f-4f7d-9584-99386d236fdf" timestamp="2023-11-22T01:19:05.248Z" tests="1" failures="0" errors="0" time="0.812">
+    <testcase name="Status code is 200" time="0.812" classname="ApiTask6"/>
+  </testsuite>
+  <testsuite name="Get a single book" id="d53ab89f-b27a-4b8c-b066-5724b98b1b12" timestamp="2023-11-22T01:19:05.248Z" tests="0" failures="0" errors="0" time="0.218"/>
+  <testsuite name="Place a book order" id="dfab7707-add6-4bd6-a000-3de4f93f3cd0" timestamp="2023-11-22T01:19:05.248Z" tests="0" failures="0" errors="0" time="0.912"/>
+  <testsuite name="Get all orders" id="1f5ae5fb-2085-4519-b18a-4443700d3945" timestamp="2023-11-22T01:19:05.248Z" tests="0" failures="0" errors="0" time="1.250"/>
+  <testsuite name="Get an order" id="423eafb3-2e52-4cbc-8ff8-c51042b48279" timestamp="2023-11-22T01:19:05.248Z" tests="0" failures="0" errors="0" time="0.328"/>
+  <testsuite name="Delete an order" id="ec32c58e-c130-4478-aee4-2e6f5cdfb3fd" timestamp="2023-11-22T01:19:05.248Z" tests="0" failures="0" errors="0" time="0.241"/>
+  <testsuite name="Book Untamed" id="53083c42-e4e2-4509-a627-59313fd55a7c" timestamp="2023-11-22T01:19:05.248Z" tests="1" failures="0" errors="0" time="0.230">
+    <testcase name="verify the id number of a non-fiction book with the name Untamed" time="0.230" classname="ApiTask6"/>
+  </testsuite>
+</testsuites>

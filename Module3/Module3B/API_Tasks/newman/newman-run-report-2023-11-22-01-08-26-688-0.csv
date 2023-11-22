@@ -1,0 +1,10 @@
+iteration,collectionName,requestName,method,url,status,code,responseTime,responseSize,executed,failed,skipped,totalAssertions,executedCount,failedCount,skippedCount
+"1","API Task 6","Get Status","GET","https://simple-books-api.glitch.me/","OK","200","3042","46",,,,"0","0","0","0"
+"1","API Task 6","Register an API Client","POST","https://simple-books-api.glitch.me/api-clients/","Conflict","409","1009","65",,,,"0","0","0","0"
+"1","API Task 6","Get Books","GET","https://simple-books-api.glitch.me/books","OK","200","219","417","Status code is 200",,,"1","1","0","0"
+"1","API Task 6","Get a single book","GET","https://simple-books-api.glitch.me/books/6","OK","200","886","130",,,,"0","0","0","0"
+"1","API Task 6","Place a book order","POST","https://simple-books-api.glitch.me/orders","Created","201","1050","50",,,,"0","0","0","0"
+"1","API Task 6","Get all orders","GET","https://simple-books-api.glitch.me/orders","OK","200","839","8559",,,,"0","0","0","0"
+"1","API Task 6","Get an order","GET","https://simple-books-api.glitch.me/orders/Zoz_uHQNYVgqaaD5qwcZe","Not Found","404","575","51",,,,"0","0","0","0"
+"1","API Task 6","Delete an order","DELETE","https://simple-books-api.glitch.me/orders/Zoz_uHQNYVgqaaD5qwcZe","Not Found","404","255","51",,,,"0","0","0","0"
+"1","API Task 6","Book Untamed","GET","https://simple-books-api.glitch.me/books","OK","200","217","417","verify the id number of a non-fiction book with the name Untamed",,,"1","1","0","0"

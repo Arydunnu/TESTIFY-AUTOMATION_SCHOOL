@@ -1,0 +1,9 @@
+const jsonData = pm.response.json();
+
+const untamed = jsonData.find(book => book.name === "Untamed");;
+
+ pm.test("verify the id number of a non-fiction book with the name Untamed", function() {
+        pm.expect(untamed.id).to.equal(5);
+    });
+
+    console.log("ID for 'Untamed':", untamed.id);

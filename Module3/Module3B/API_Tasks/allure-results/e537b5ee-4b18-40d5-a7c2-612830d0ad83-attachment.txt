@@ -1,0 +1,9 @@
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+    
+});
+    const jsonData = pm.response.json();
+    const theRussianBook = jsonData.find(({ name }) => name === "The Russian");
+    console.log(theRussianBook);
+
+pm.environment.set("russian_id", theRussianBook.id);
