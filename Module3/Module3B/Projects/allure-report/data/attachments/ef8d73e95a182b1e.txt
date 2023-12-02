@@ -1,0 +1,168 @@
+{
+    "items": [
+        {
+            "id": "655fdf26d702943b022c6746",
+            "taskTypeId": "655e6326547873ac2a4134da",
+            "name": "To do",
+            "contactsIds": [],
+            "dealsIds": [
+                "655fdf25bebd778ef63f2fb9"
+            ],
+            "companiesIds": [],
+            "priority": false,
+            "createdAt": "2023-11-23T23:24:22.717Z"
+        },
+        {
+            "id": "655fdf46d702943b022c6747",
+            "taskTypeId": "655e6326547873ac2a4134da",
+            "name": "To do",
+            "contactsIds": [],
+            "dealsIds": [
+                "655fdf46ab1b1e06aef6ca57"
+            ],
+            "companiesIds": [],
+            "priority": false,
+            "createdAt": "2023-11-23T23:24:54.644Z"
+        },
+        {
+            "id": "655fdf6ad702943b022c6748",
+            "taskTypeId": "655e6326547873ac2a4134da",
+            "name": "To do",
+            "contactsIds": [],
+            "dealsIds": [
+                "655fdf69c70088a3d04c2723"
+            ],
+            "companiesIds": [],
+            "priority": false,
+            "createdAt": "2023-11-23T23:25:30.211Z"
+        },
+        {
+            "id": "655fdf6fd702943b022c6749",
+            "taskTypeId": "655e6326547873ac2a4134da",
+            "name": "To do",
+            "contactsIds": [],
+            "dealsIds": [
+                "655fdf6e638e3c2e6009f3f5"
+            ],
+            "companiesIds": [],
+            "priority": false,
+            "createdAt": "2023-11-23T23:25:35.059Z"
+        },
+        {
+            "id": "655fdf8374f4ac2d9a8c5961",
+            "taskTypeId": "655e6326547873ac2a4134da",
+            "name": "To do",
+            "contactsIds": [],
+            "dealsIds": [
+                "655fdf83875eb1e35cb064b6"
+            ],
+            "companiesIds": [],
+            "priority": false,
+            "createdAt": "2023-11-23T23:25:55.782Z"
+        },
+        {
+            "id": "655fdf9874f4ac2d9a8c5962",
+            "taskTypeId": "655e6326547873ac2a4134da",
+            "name": "To do",
+            "contactsIds": [],
+            "dealsIds": [
+                "655fdf97638e3c2e6009f3f6"
+            ],
+            "companiesIds": [],
+            "priority": false,
+            "createdAt": "2023-11-23T23:26:16.021Z"
+        },
+        {
+            "id": "655fdfafd702943b022c674a",
+            "taskTypeId": "655e6326547873ac2a4134da",
+            "name": "To do",
+            "contactsIds": [],
+            "dealsIds": [
+                "655fdfaebebd778ef63f2fbb"
+            ],
+            "companiesIds": [],
+            "priority": false,
+            "createdAt": "2023-11-23T23:26:39.182Z"
+        },
+        {
+            "id": "655fdfc374f4ac2d9a8c5963",
+            "taskTypeId": "655e6326547873ac2a4134dc",
+            "name": "Lunch",
+            "contactsIds": [],
+            "dealsIds": [
+                "655fdfc3638e3c2e6009f3f7"
+            ],
+            "companiesIds": [],
+            "priority": false,
+            "createdAt": "2023-11-23T23:26:59.587Z"
+        },
+        {
+            "id": "655fdfe2d702943b022c674b",
+            "taskTypeId": "655e6326547873ac2a4134da",
+            "name": "To do",
+            "contactsIds": [],
+            "dealsIds": [
+                "655fdfe2ab1b1e06aef6ca58"
+            ],
+            "companiesIds": [],
+            "priority": false,
+            "createdAt": "2023-11-23T23:27:30.847Z"
+        },
+        {
+            "id": "655fdfebd702943b022c674c",
+            "taskTypeId": "655e6326547873ac2a4134da",
+            "name": "To do",
+            "contactsIds": [],
+            "dealsIds": [
+                "655fdfeac70088a3d04c2725"
+            ],
+            "companiesIds": [],
+            "priority": false,
+            "createdAt": "2023-11-23T23:27:39.024Z"
+        },
+        {
+            "id": "655fdff5d702943b022c674d",
+            "taskTypeId": "655e6326547873ac2a4134da",
+            "name": "To do",
+            "contactsIds": [],
+            "dealsIds": [
+                "655fdff5875eb1e35cb064b7"
+            ],
+            "companiesIds": [],
+            "priority": false,
+            "createdAt": "2023-11-23T23:27:49.902Z"
+        },
+        {
+            "id": "655f662574f4ac2d9a8c58de",
+            "taskTypeId": "655e6326547873ac2a4134da",
+            "name": "To do",
+            "contactsIds": [],
+            "dealsIds": [
+                "655f6624bebd778ef63f2da7"
+            ],
+            "companiesIds": [],
+            "priority": false,
+            "createdAt": "2023-11-23T14:48:05.021Z"
+        },
+        {
+            "id": "655f55e7c70088a3d04c23f6",
+            "taskTypeId": "655e6326547873ac2a4134da",
+            "name": "Create Project",
+            "contactsIds": [],
+            "dealsIds": [],
+            "companiesIds": [],
+            "priority": false,
+            "createdAt": "2023-11-23T13:38:47.182Z"
+        }
+    ],
+    "pager": {
+        "current": 1,
+        "limit": 50,
+        "from": 0,
+        "to": 50,
+        "count": 13,
+        "total": 13,
+        "max": 1,
+        "totalStoredResults": 13
+    }
+}

@@ -1,0 +1,1 @@
+{"code":"invalid_parameter","message":"You are trying with invalid event of transactional webhook"}

@@ -1,0 +1,1 @@
+{"id":24,"name":"Miss","startDate":"2023-06-02T12:31:16.023+01:00","endDate":"2023-12-02T13:31:16.023+01:00","totalBlacklisted":0,"totalSubscribers":0,"uniqueSubscribers":0,"folderId":19,"createdAt":"2023-12-01T16:16:28.000+01:00","campaignStats":[],"dynamicList":false}
