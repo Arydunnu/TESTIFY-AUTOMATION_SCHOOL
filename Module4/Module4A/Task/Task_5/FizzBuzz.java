@@ -1,6 +1,8 @@
+package JavaClass;
+
 public class FizzBuzz {
     public static void main(String[] args) {
-        fizzBuzz(20); 
+        fizzBuzz(20);
     }
 
     public static void fizzBuzz(int n) {
@@ -17,3 +19,4 @@ public class FizzBuzz {
         }
     }
 }
+

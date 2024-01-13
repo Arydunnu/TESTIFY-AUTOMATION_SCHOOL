@@ -1,4 +1,4 @@
-package JavaClass;
+package com.greham;
 
 public class StringOperations {
         public static void main(String[] args) {
