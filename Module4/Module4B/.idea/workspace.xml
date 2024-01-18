@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8145eca8-9a3d-4575-a541-66c8bd6edd4f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Module4B/Tasks/Task1/chromedriver-win64/LICENSE.chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module4B/Tasks/Task1/chromedriver-win64/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module4B/Tasks/Task1/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module4B/Tasks/Task1/geckodriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module4B/Tasks/Task1/msedgedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module4B/Tasks/Task1/operadriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module4B/Tasks/Task1/operadriver_win64/operadriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module4B/Tasks/Task1/operadriver_win64/sha512_sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module4B/Tasks/Task2/EdgeNavigate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module4B/Tasks/Task2/GoogleNavigate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module4B/Tasks/Task2/OperaClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module4B/Tasks/Task3/GoogleImageInspect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module4B/Tasks/Task3/GoogleSearchButtonInspect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module4B/Tasks/Task3/GoogleTextAreaInspect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module4B/Tasks/Task4/Guru99SignIn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module4B/Tasks/Task5/saucedemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module4B/Tasks/Task6/saucedemo_Css.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
